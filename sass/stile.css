@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1,
+h3 {
+  font-weight: 600;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: rgb(0, 0, 0);
+  padding: 13px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1a1a1a;
+}
+
+.large {
+  font-size: 1.5rem;
+}
+
+.samall {
+  font-size: 0.6rem;
+}
+
+.txt-primary {
+  color: #8ed6b2;
+}
+
+.txt-gray {
+  color: rgb(0, 0, 0);
+}
+
+.p-80 {
+  padding: 80px;
+}
+
+.bk {
+  background: url(../img/contactes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#gym .gym-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#gym .gym-wrap .gym-wrap-bk {
+  background: url(../img/cbum4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+#gym .gym-wrap .gym-wrap-form {
+  padding: 50px;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#gym .gym-wrap .gym-wrap-form h2,
+#gym .gym-wrap .gym-wrap-form h3,
+#gym .gym-wrap .gym-wrap-form p {
+  text-align: center;
+}
+#gym .gym-wrap .gym-wrap-form h2 {
+  padding-bottom: 20px;
+}
+#gym .gym-wrap .gym-wrap-form form p {
+  text-align: right;
+}
+#gym .gym-wrap .gym-wrap-form form button {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 60px;
+}
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.fotm-in-gray input {
+  border: 0;
+  border-bottom: 2px solid grey;
+}/*# sourceMappingURL=stile.css.map */

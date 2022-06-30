@@ -1,0 +1,7 @@
+1--cambie el contenido de la etiqueta title
+2---use la etiqueta meta description
+3--en todos los alts puse palabras claves para que las imagenes aparezcan en la web cuando la gente busque algo en comun con el gym
+4--mejore la semantica(no del todo todavia)
+5--agregue etiquetas de descricpcion(<!--!> de dividiendo las secciones de cada html
+6--optimice las imagenes
+ya para la entrega tres quiero hacer el shop y el nosotros con sass. ya que como requisito es usar sass en todas los html. ahi ya estaria todos los detalles listos de la pagina
